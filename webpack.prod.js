@@ -6,12 +6,13 @@ module.exports = merge(common, {
     output: {
         publicPath: '/'
     },
-  /*
+  
     plugins: [
         new Dotenv({
             safe: true,
-            systemvars: true
+            systemvars: true,
+            DEBUG: true
         })
     ]
-    */
+  
 });
